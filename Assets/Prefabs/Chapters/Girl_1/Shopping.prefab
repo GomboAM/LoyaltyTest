@@ -137,6 +137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7379378721863560523}
     m_Modifications:
+    - target: {fileID: 4318043608908119351, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5889770265813848336, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
       propertyPath: m_Name
       value: char_sheila
@@ -195,6 +199,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6554842427416267690, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7801478217654827878, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8437587212751763055, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

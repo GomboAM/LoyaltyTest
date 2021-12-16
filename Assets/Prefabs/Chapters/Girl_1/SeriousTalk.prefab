@@ -203,6 +203,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7379378721863560523}
     m_Modifications:
+    - target: {fileID: 821879192066894748, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1948996489877248754, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2130278899003332662, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2557709657774911631, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318043608908119351, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5889770265813848336, guid: f396a803f0fd1b34c86a32bce99f4e77, type: 3}
       propertyPath: m_Name
       value: char_sheila

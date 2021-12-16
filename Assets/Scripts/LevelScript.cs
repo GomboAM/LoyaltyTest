@@ -12,23 +12,21 @@ public class LevelScript : MonoBehaviour
 
     private void OnEnable()
     {
-        GameController.Instance.ActionWin += Win;
-        GameController.Instance.ActionLose += Lose;
+        GameController.Instance.Action_UpdateProgress += FinishAnimation;
     }
 
     private void OnDisable()
     {
-        GameController.Instance.ActionWin -= Win;
-        GameController.Instance.ActionLose -= Lose;
+        GameController.Instance.Action_UpdateProgress -= FinishAnimation;
     }
 
-    private void Win()
+    private void FinishAnimation(float _karma)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Invoke("NextLevel", 1f);
     }
 
-    private void Lose()
+    private void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
     }
 }
