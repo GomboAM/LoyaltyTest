@@ -75,6 +75,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3955104050944464877, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e5b776a31976dc14a89df1d39656c869, type: 2}
+    - target: {fileID: 4070985666526376040, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96488e308ef71fe41a8c62960b4c7dd9, type: 2}
     - target: {fileID: 4979285303381411817, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -151,5 +159,9 @@ PrefabInstance:
       propertyPath: DisplayNameTranslationKey
       value: chloe_key_name
       objectReference: {fileID: 0}
+    - target: {fileID: 7725510763878314648, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 96488e308ef71fe41a8c62960b4c7dd9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}

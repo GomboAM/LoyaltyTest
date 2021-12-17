@@ -23,7 +23,7 @@ MonoBehaviour:
       m_EntryType: 0
       m_TriggerValue: 0
     StageIndex: 0
-    m_LevelPrefab: {fileID: 7379378721863560523, guid: ffeb8d1fd63ffde40afa793fd09cb6d7, type: 3}
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: f6d9e48c6583db94db1ce41449d2da8c, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:

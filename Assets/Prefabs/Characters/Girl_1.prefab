@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1260835550423422720, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_Name
-      value: char_sheila
+      value: Girl_1
       objectReference: {fileID: 0}
     - target: {fileID: 1888331970599734714, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_RootOrder
@@ -75,17 +75,33 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7f85c4e07cf6f2443b9c231bf6b6125e, type: 2}
+    - target: {fileID: 3208711945583689078, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955104050944464877, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c6f9068512ac7414bb575f4bf8f340c5, type: 2}
     - target: {fileID: 4070985666526376040, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64fa383fbd2815e478b2aff5159492a2, type: 2}
+    - target: {fileID: 4356432823487509627, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5450533521246170508, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6813933003226496031, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6939380102530872778, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7590208434391566428, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_Name
@@ -95,6 +111,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 64fa383fbd2815e478b2aff5159492a2, type: 2}
+    - target: {fileID: 8809395060344120149, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8876326934763485991, guid: 73db60d721325e04e83fbc9dd0c170c5, type: 3}
       propertyPath: m_IsActive
       value: 0
