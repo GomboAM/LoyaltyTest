@@ -42,6 +42,8 @@ public class DataController : Singleton<DataController>
             m_ChapterProgress.Karma = 0;
             m_ChapterProgress.StageIndex = 0;
             m_ChapterProgress.ChapterIndex += 1;
+
+            m_ChapterProgress.ChapterIndex = Mathf.Clamp(m_ChapterProgress.ChapterIndex, 0, m_Levels.Where(a => a.GetChapterType == m_ChapterProgress.ChapterType).Count());
         }
         else
         {
@@ -92,11 +94,7 @@ public class DataController : Singleton<DataController>
         int convertedIndex = m_Progress.CurrentLevel - (int)(m_Progress.CurrentLevel / m_ChapterSequence.Count) * m_ChapterSequence.Count;
         m_ChapterProgress = m_Progress.ChaptersList.FirstOrDefault(b => b.ChapterType == m_ChapterSequence[convertedIndex]);
 
-        int chaptersCount = m_Levels.Where(a => a.GetChapterType == m_ChapterSequence[convertedIndex]).Count();
-
-        int convertedChapterIndex = m_ChapterProgress.ChapterIndex - (int)(m_ChapterProgress.ChapterIndex / chaptersCount) * chaptersCount;
-
-        ChapterData chapter = m_Levels.FirstOrDefault(a => a.GetChapterType == m_ChapterProgress.ChapterType && a.GetChapterIndex == convertedChapterIndex);
+        ChapterData chapter = m_Levels.FirstOrDefault(a => a.GetChapterType == m_ChapterProgress.ChapterType && a.GetChapterIndex == m_ChapterProgress.ChapterIndex);
 
         m_CurrentStage = chapter.GetCurrentStage(m_ChapterProgress.Karma, m_ChapterProgress.StageIndex);
     }
