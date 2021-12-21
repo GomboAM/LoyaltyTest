@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Girl_2
   m_EditorClassIdentifier: 
   m_ChapterType: 1
-  m_ChapterIndex: 1
+  m_ChapterIndex: 0
   m_StagesList:
   - m_StageName: Meeting
     m_StartCondition:
