@@ -284,6 +284,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7379378721863560523}
     m_Modifications:
+    - target: {fileID: 1606056846189821714, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606056846189821714, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606056846189821714, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606056846189821714, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606056846189821714, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1606056846258252237, guid: 9a3297b707fa9914aa8fa96314412f17, type: 3}
       propertyPath: m_Name
       value: StreetNightEnvironment
