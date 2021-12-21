@@ -28,7 +28,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4309992701794923091}
+  - {fileID: 6727830062998472990}
   - {fileID: 5262175780564895602}
   - {fileID: 7826237290795521483}
   m_Father: {fileID: 0}
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a4e5849178201499000282f6082662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_CharacterAnimator: {fileID: 199540250526866397}
+  m_CharacterAnimator: {fileID: 7226815609378381968}
 --- !u!1 &2536369679711053698
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9037341679723810767, guid: e8bc5021e3685974cba21b239ed160f4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 11.32
+      value: 10.84
       objectReference: {fileID: 0}
     - target: {fileID: 9037341679723810767, guid: e8bc5021e3685974cba21b239ed160f4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -196,7 +196,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9037341679723810767, guid: e8bc5021e3685974cba21b239ed160f4, type: 3}
   m_PrefabInstance: {fileID: 1294634508750772740}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &4815430573116681170
+--- !u!1001 &2620530774181941407
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -205,7 +205,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8234871216299541307, guid: 9a29d529890ce8a49807b482f9adc701, type: 3}
       propertyPath: m_Name
-      value: char_sheila
+      value: Girl_1
       objectReference: {fileID: 0}
     - target: {fileID: 8720080558533630337, guid: 9a29d529890ce8a49807b482f9adc701, type: 3}
       propertyPath: m_RootOrder
@@ -265,13 +265,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a29d529890ce8a49807b482f9adc701, type: 3}
---- !u!4 &4309992701794923091 stripped
+--- !u!4 &6727830062998472990 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8720080558533630337, guid: 9a29d529890ce8a49807b482f9adc701, type: 3}
-  m_PrefabInstance: {fileID: 4815430573116681170}
+  m_PrefabInstance: {fileID: 2620530774181941407}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &199540250526866397 stripped
+--- !u!95 &7226815609378381968 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 4618213111233982479, guid: 9a29d529890ce8a49807b482f9adc701, type: 3}
-  m_PrefabInstance: {fileID: 4815430573116681170}
+  m_PrefabInstance: {fileID: 2620530774181941407}
   m_PrefabAsset: {fileID: 0}
