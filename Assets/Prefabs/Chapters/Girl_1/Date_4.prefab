@@ -382,6 +382,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7379378721863560523}
     m_Modifications:
+    - target: {fileID: 3588887868127371958, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588887868127371958, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588887868127371958, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588887868127371958, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588887868127371958, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3588887868640206948, guid: 083010b6545460b4e81a9aacda32ac79, type: 3}
       propertyPath: m_Name
       value: TribunesEnvironment
