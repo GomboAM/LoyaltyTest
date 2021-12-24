@@ -13,8 +13,8 @@ public enum KarmaType
 
 public enum EmotionType
 {
-    Laugh,
-    Angry,    
+    Happy,
+    Sad,    
 }
 
 public enum ChapterType

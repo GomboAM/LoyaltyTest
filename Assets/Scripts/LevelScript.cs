@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+
 
 public class LevelScript : MonoBehaviour
 {
     [SerializeField] private Animator m_CharacterAnimator;
 
     private Animator m_LevelAnimator;
+
     public Animator GetCharacterAnimator => m_CharacterAnimator;
 
     private void OnEnable()
@@ -27,6 +28,6 @@ public class LevelScript : MonoBehaviour
 
     private void NextLevel()
     {
-        SceneManager.LoadScene(0);
+        GameController.Instance.GameEnd();
     }
 }

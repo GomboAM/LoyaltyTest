@@ -12,7 +12,7 @@ public class ProgressModel
 public class ChapterModel
 {
     public int ChapterIndex;
-    public int StageIndex;
+    public string StageName;
     public ChapterType ChapterType;
-    public float Karma;
+    public int Karma;
 }

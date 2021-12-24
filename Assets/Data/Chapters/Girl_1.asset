@@ -12,17 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1acdaacfc136584ba258202b9f26fc6, type: 3}
   m_Name: Girl_1
   m_EditorClassIdentifier: 
+  m_StartStage: Meeting
   m_ChapterType: 1
   m_ChapterIndex: 0
   m_StagesList:
   - m_StageName: Meeting
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_1
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 0
+    m_LoseKarma: -3
+    m_WinKarma: 3
     m_LevelPrefab: {fileID: 7379378721863560523, guid: ffeb8d1fd63ffde40afa793fd09cb6d7, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -65,13 +69,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Date_1
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_2
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 1
+    m_LoseKarma: -1
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: e26e5faaa544535478f46836e5c7123f, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -119,13 +126,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Date_2
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_3
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 2
+    m_LoseKarma: -1
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: d752b32ed652ddf43a31e74294437b22, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -176,13 +186,24 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Date_3
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 1
+        m_TriggerValue: 4
+      m_NextStageName: House_1
+    - m_StartCondition:
+        m_EntryType: 2
+        m_TriggerValue: -4
+      m_NextStageName: SeriousTalk
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Shopping
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 3
+    m_LoseKarma: -1
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 4bfb3088dc989454bb710257d098c891, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -229,13 +250,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: House_1
-    m_StartCondition:
-      m_EntryType: 1
-      m_TriggerValue: 2
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_4
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 4
+    m_LoseKarma: -2
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 83f2a8f4ddff4c248a2901cbde6825c1, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -281,13 +305,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Shopping
-    m_StartCondition:
-      m_EntryType: 3
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_4
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 4
+    m_LoseKarma: -2
+    m_WinKarma: 2
     m_LevelPrefab: {fileID: 7379378721863560523, guid: c2bf18e06b5eafb4f846804a8d21e65b, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -332,13 +359,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: SeriousTalk
-    m_StartCondition:
-      m_EntryType: 2
-      m_TriggerValue: -2
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 1
+        m_TriggerValue: -3
+      m_NextStageName: Date_4
     m_EndCondition:
       m_EntryType: 2
-      m_TriggerValue: -2
-    StageIndex: 4
+      m_TriggerValue: -4
+    m_LoseKarma: -99
+    m_WinKarma: 3
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 7e1bb05abc07a1c4084b39a165e063d1, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList:
@@ -386,13 +416,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Date_4
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_5
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 5
+    m_LoseKarma: -1
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 5558fe627c04137428f0411bafa1fd03, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList: []
@@ -439,13 +472,16 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: Date_5
-    m_StartCondition:
-      m_EntryType: 0
-      m_TriggerValue: 0
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 1
+        m_TriggerValue: 4
+      m_NextStageName: House_2
     m_EndCondition:
       m_EntryType: 2
-      m_TriggerValue: 7
-    StageIndex: 6
+      m_TriggerValue: 3
+    m_LoseKarma: -1
+    m_WinKarma: 1
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 1f272f5dd382bf94e9930453cd5a21a6, type: 3}
     m_IsChapterEnd: 0
     m_CutScenesList:
@@ -495,15 +531,14 @@ MonoBehaviour:
         EmotionType: 1
         KarmaValue: 0.25
   - m_StageName: House_2
-    m_StartCondition:
-      m_EntryType: 3
-      m_TriggerValue: 8
+    m_NextStages: []
     m_EndCondition:
       m_EntryType: 0
       m_TriggerValue: 0
-    StageIndex: 7
+    m_LoseKarma: -99
+    m_WinKarma: 99
     m_LevelPrefab: {fileID: 7379378721863560523, guid: 85600c54b7f75b842a1b7f4a49620324, type: 3}
-    m_IsChapterEnd: 0
+    m_IsChapterEnd: 1
     m_CutScenesList: []
     m_Questions:
     - Text: "\u042F \u0434\u043E\u043B\u0436\u043D\u0430 \u0442\u0435\u0431\u0435

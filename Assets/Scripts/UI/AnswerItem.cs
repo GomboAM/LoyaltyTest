@@ -17,6 +17,7 @@ public class AnswerItem : MonoBehaviour
 
     private void SelectButtonClick()
     {
+        m_SelectButton.image.color = new Color32(0, 255, 101, 255);
         Player.Instance.SetAnswer(m_Data);
     }
 

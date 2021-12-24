@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class LevelController : Singleton<LevelController>
 {
-    [SerializeField] private LevelScript[] m_Levels;
-
     private LevelScript m_CurrentLevel;
 
     public LevelScript GetCurrentLevel => m_CurrentLevel;

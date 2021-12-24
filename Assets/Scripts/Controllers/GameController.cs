@@ -5,19 +5,21 @@ using System;
 
 public class GameController : Singleton<GameController>
 {
-    public event Action ActionLose, ActionWin;
+    public event Action Action_GameEnd;
     public event Action<float> Action_UpdateProgress;
+
+    private float m_LevelKarma;
+
+    public float GetLevelKarma => m_LevelKarma;
 
     public void StageEnd(float _karmaValue)
     {
+        m_LevelKarma = _karmaValue;
         Action_UpdateProgress?.Invoke(_karmaValue);
     }
 
-    public void GameEnd(float _karmaValue)
-    {        
-        if (_karmaValue > 0)
-            ActionWin?.Invoke();
-        else
-            ActionLose?.Invoke();
+    public void GameEnd()
+    {
+        Action_GameEnd?.Invoke();
     }
 }
