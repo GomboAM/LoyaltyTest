@@ -20,15 +20,18 @@ public class GamePlayUI : MonoBehaviour
 
     private void Awake()
     {
-        m_CG = GetComponent<CanvasGroup>();
-
-        Sequence seq = DOTween.Sequence()
-            .Append(m_CG.DOFade(1f, 0.5f));
+        m_CG = GetComponent<CanvasGroup>();        
     }
 
     public void ShowQuestions(QuestionData _questions)
     {
         m_Data = _questions;
+        Sequence seq = DOTween.Sequence()
+            .Append(m_CG.DOFade(1f, 0.5f))
+            .OnComplete(()=> 
+            {
+                m_CG.blocksRaycasts = true;
+            });
         HideQuestions();
 
         //m_QuestionsCG.blocksRaycasts = false;

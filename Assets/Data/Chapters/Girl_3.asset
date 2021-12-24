@@ -35,40 +35,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'Hi, I didn''t expect to meet anyone here. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Lately I like secluded places. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'Even here you don''t let me be alone. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Since we met, can we get acquainted? I am Alice. '
       Answers:
-      - Text: Gombo
+      - Text: 'Tom, glad to meet. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'Tom, now get out. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'If you suddenly get tired of walking alone, call me. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I will have more fun in good company. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'I think I''ll be alone some more. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -91,40 +84,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'Look who I see. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Alice, what a pleasant surprise. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'It looks like someone cursed me to meet you. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Looks like you still prefer loneliness. '
       Answers:
-      - Text: Gombo
+      - Text: I need time to get over a previous relationship.
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'I just want the peace you''re disturbing. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'Oh crap, my favorite team lost. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'Chin up, it''s only one loss. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'My team won, goodbye. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -147,40 +133,34 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'You decided to meet up pretty quickly. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Why put off a nice meeting. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'I''m just sick of being alone. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Tell me about yourself. '
       Answers:
-      - Text: Gombo
+      - Text: 'I am strong, clever and like to joke. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'I am lazy, have bad habits and sometimes stink a lot. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'Sometimes I want to meet the most ordinary person, with advantages and
+        disadvantages. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I have plenty of both. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'It seems to me that you want a lot. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -203,40 +183,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'I was standing first, wait, it''s you again! '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'It''s either very strange coincidences or fate. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'What''s the punishment, are you following me? '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Third time this week is really weird. '
       Answers:
-      - Text: Gombo
+      - Text: 'I think it''s a sign we should get to know each other better. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'It looks like we live close by, no big deal. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'You know, I think you''re right, you were first in line. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I''m happy to let you go first. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'That''s fine, I''m in a big hurry. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -259,40 +232,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: Not the most usual place to meet.
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'I think it''s very nice and quiet.) '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'If you''re not happy, you can go home. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'I haven''t been to the beach in a long time. '
       Answers:
-      - Text: Gombo
+      - Text: 'We can sunbathe or go swimming. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'You could buy a normal swimsuit. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: "I\u2019ve just remembered that I do not know how to swim. "
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'Let me teach you, it''s easy. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'Are you serious? What a shame. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -315,40 +281,34 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'Wow, there are so many beautiful flowers. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'They''re all ugly compared to you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'Flowers are like flowers, nothing special. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'It''s so nice here, the golden mean between the quiet woods and the
+        bustling city. '
       Answers:
-      - Text: Gombo
+      - Text: 'You have my full support. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'I''m sure there is no such thing as a golden mean. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'I wish the relationship were like that, without extremes. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'Such deep thought. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'You''re talking like an old hag. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -367,40 +327,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'Wait, I want to talk. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'You''re right, we can''t go on like this. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'Maybe you should leave me alone already. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'I just want to figure out our relationship. '
       Answers:
-      - Text: Gombo
+      - Text: 'I''d like to smooth out our conflict. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'We have no reason to change anything. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'Maybe it''s just time to stop acting like a jerk. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I''ll try to be nicer to you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'I think we should act like we don''t know each other. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -419,40 +372,33 @@ MonoBehaviour:
     m_IsChapterEnd: 1
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'As it turns out, we do live in the same house. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Looks like we''re meant for each other after all. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'We have to tolerate each other''s proximity. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Let''s talk normally. '
       Answers:
-      - Text: Gombo
+      - Text: 'I''d really like to see each other more often. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'Maybe we should pretend we don''t know each other. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: "Then let's agree that\u2026"
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'Let''s try to build a relationship. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'I''m still not sure. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -471,40 +417,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'We are really neighbors. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Great, we can be closer to each other. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'Not sure if this is good news.) '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'Let''s settle this once and for all. '
       Answers:
-      - Text: Gombo
+      - Text: 'Even though it''s weird, I''m glad I met you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: I'm getting a little sick of you.
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: To be honest, I really like you.
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I like you too. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'I can''t say the same about you. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -523,40 +462,33 @@ MonoBehaviour:
     m_IsChapterEnd: 0
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'I need to talk to you seriously. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'Sure, I''m all ears. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'I hate serious conversations. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'You''re too perfect for me. '
       Answers:
-      - Text: Gombo
+      - Text: 'But I love you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'Sounds dumb. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: 'I can''t be with you if you keep this up. '
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I can''t live without you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'You want to be pushed around, you''ll get it. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -571,40 +503,33 @@ MonoBehaviour:
     m_IsChapterEnd: 1
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'You''re here again. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'I hoped to meet you here. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'Do you haunt me at night, too? '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'I thought long and hard, and I realized that we really have a connection. '
       Answers:
-      - Text: Gombo
+      - Text: I was thinking the same thing.
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'And I hope to get rid of it. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: What if we tried to start our acquaintance all over again.
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'You''re right, it''s a chance for both of us. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'This is going nowhere, I''m going to move. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
@@ -619,40 +544,33 @@ MonoBehaviour:
     m_IsChapterEnd: 1
     m_CutScenesList: []
     m_Questions:
-    - Text: "\u041F\u0440\u0438\u0432\u0435\u0442 \u043A\u0440\u0430\u0441\u0430\u0432\u0447\u0438\u043A,
-        \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u0441\u044F?"
+    - Text: 'We met again where it all began. '
       Answers:
-      - Text: "\u0412\u0430\u0443, \u0442\u0430\u043A\u043E\u0439 \u043A\u0440\u0430\u0441\u0430\u0432\u0438\u0446\u0435
-          \u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u043E\u0442\u043A\u0430\u0437\u0430\u0442\u044C"
+      - Text: 'I really wanted to see you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041D\u0443 \u044F \u043A\u0430\u043A \u0440\u0430\u0437 \u0440\u0430\u0441\u0441\u0442\u0430\u043B\u0441\u044F
-          \u0441 \u0434\u0435\u0432\u0443\u0448\u043A\u043E\u0439, \u043D\u0430 \u0437\u0430\u043C\u0435\u043D\u0443
-          \u0438 \u0442\u044B \u0441\u043E\u0439\u0434\u0435\u0448\u044C"
+      - Text: 'You''re still clingy. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0410\u043B\u0438\u0441\u0430"
+    - Text: 'I finally figured myself out. '
       Answers:
-      - Text: Gombo
+      - Text: 'Me, too, and I''m gonna fight for you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u041C\u0434\u0430, \u043D\u0443 \u0438 \u0438\u043C\u0435\u0447\u043A\u043E"
+      - Text: 'And I realized you''re crazy. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25
-    - Text: "\u041E\u0431\u043E\u0436\u0430\u044E \u0433\u0443\u043B\u044F\u0442\u044C
-        \u0432 \u043F\u0430\u0440\u043A\u0435"
+    - Text: I don't need that kind of guy, but maybe a friend.
       Answers:
-      - Text: "\u041A\u0430\u043A\u043E\u0435 \u0441\u043E\u0432\u043F\u0430\u0434\u0435\u043D\u0438\u0435,
-          \u044F \u0442\u043E\u0436\u0435"
+      - Text: 'I won''t be able to stop loving you. '
         Type: 0
         EmotionType: 0
         KarmaValue: 0.25
-      - Text: "\u0413\u0443\u043B\u044F\u0442\u044C \u0432 \u043F\u0430\u0440\u043A\u0435?
-          \u0417\u0432\u0443\u0447\u0438\u0442 \u043E\u0447\u0435\u043D\u044C \u0441\u043A\u0443\u0447\u043D\u043E"
+      - Text: 'Yeah, we don''t choose our friends. '
         Type: 1
         EmotionType: 1
         KarmaValue: 0.25

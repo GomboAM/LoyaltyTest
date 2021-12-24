@@ -19,6 +19,7 @@ public class DataController : Singleton<DataController>
     public QuestionData[] GetQuestions => m_CurrentStage.GetQuestions;
     public int GetProgressKarma => m_CurrentKarma;
     public int GetRewardKarma => m_RewardKarma;
+    public int GetCurrentLevel => m_Progress.CurrentLevel;
 
     protected override void Awake()
     {
@@ -41,6 +42,7 @@ public class DataController : Singleton<DataController>
         m_RewardKarma = m_CurrentStage.GetLevelKarma(_karma);
         m_ChapterProgress.Karma += m_RewardKarma;
         m_ChapterProgress.Karma = Mathf.Clamp(m_ChapterProgress.Karma, -8, 8);
+        m_Progress.CurrentLevel++;
         m_CurrentKarma = m_ChapterProgress.Karma;
 
         if (m_CurrentStage.IsChapterEnd(m_ChapterProgress.Karma))

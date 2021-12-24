@@ -60,7 +60,7 @@ public class CompleteUI : MonoBehaviour
         Sequence seq = DOTween.Sequence()
             .Append(m_CG.DOFade(1f, 0.25f).OnComplete(()=> { m_CG.blocksRaycasts = true; }))
             .Append(m_KarmaValue.DOAnchorPosY(250f, 0.5f))
-            .Join(m_KarmaValue.DOScale(2f, 0.5f))
+            .Join(m_KarmaValue.DOScale(4f, 0.5f))
             .Append(m_LevelProgressCG.DOFade(0f, 0.5f))
             .Append(m_KarmaValue.DOAnchorPosY(50f, 0.5f).SetEase(Ease.Linear))
             .Append(m_KarmaValue.DOAnchorPosY(-50f, 0.35f).SetEase(Ease.Linear))
