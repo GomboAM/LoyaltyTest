@@ -1,17 +1,17 @@
 {
   "dependencies": {
     "com.lionstudios.release.lionanalytics": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.lionstudios.release.lionkitcore": "1.0.0",
+        "com.lionstudios.release.lionkitcore": "1.0.1",
         "com.lionstudios.release.lionsdkservice": "1.4.4"
       },
       "url": "http://packages.lionstudios.cc:4873"
     },
     "com.lionstudios.release.lionkitcore": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -61,6 +61,15 @@
       "depth": 0,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "2.5.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {

@@ -17,6 +17,7 @@ public class AnswerItem : MonoBehaviour
 
     private void SelectButtonClick()
     {
+        //m_SelectButton.image.color = m_Data?.GetType == KarmaType.Positive ? new Color32(0, 255, 101, 255) : new Color32(255, 0, 0, 255);
         m_SelectButton.image.color = new Color32(0, 255, 101, 255);
         Player.Instance.SetAnswer(m_Data);
     }

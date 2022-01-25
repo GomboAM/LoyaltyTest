@@ -58,7 +58,7 @@ public class CompleteUI : MonoBehaviour
         m_KarmaValue.GetComponent<Text>().color = reward < 0 ? Color.red : Color.green;
 
         Sequence seq = DOTween.Sequence()
-            .Append(m_CG.DOFade(1f, 0.25f).OnComplete(()=> { m_CG.blocksRaycasts = true; }))
+            .Append(m_CG.DOFade(1f, 0.25f).OnComplete(() => { m_CG.blocksRaycasts = true; }))
             .Append(m_KarmaValue.DOAnchorPosY(250f, 0.5f))
             .Join(m_KarmaValue.DOScale(4f, 0.5f))
             .Append(m_LevelProgressCG.DOFade(0f, 0.5f))
@@ -71,6 +71,8 @@ public class CompleteUI : MonoBehaviour
                 m_ProgressLoseBar.DOFillAmount(progressKarma < 0 ? Mathf.Abs(progressKarma) : 0f, 1f);
                 m_ProgressWinBar.DOFillAmount(progressKarma > 0 ? progressKarma : 0f, 1f);
             });
+
+        //m_CG.blocksRaycasts = true;
 
         //float progressKarma = 0.125f * DataController.Instance.GetProgressKarma;
 

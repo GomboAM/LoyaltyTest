@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1acdaacfc136584ba258202b9f26fc6, type: 3}
+  m_Name: CreativeGirl_2
+  m_EditorClassIdentifier: 
+  m_StartStage: Meeting
+  m_ChapterType: 1
+  m_ChapterIndex: 0
+  m_StagesList:
+  - m_StageName: Meeting
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_1
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -3
+    m_WinKarma: 3
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: 58ba9f80202847c4094d40aa84b93c0f, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: Let's meet?
+      Answers:
+      - Text: Say your name
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: Ban
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25
+  - m_StageName: Date_1
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_2
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -1
+    m_WinKarma: 1
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: 61ddea1ced4650b4ba134f79a78c1c9c, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: I'm very bored
+      Answers:
+      - Text: Join her
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: Go home
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25
+  - m_StageName: Date_2
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_3
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -1
+    m_WinKarma: 1
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: 88d30a155f8f78b4dadb6f50ca3f61de, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: I think about....
+      Answers:
+      - Text: Your lips
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: Football
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25
+  - m_StageName: Date_3
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: House_1
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -1
+    m_WinKarma: 1
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: dc8d22b949ac2a84eb71541cf264364c, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: Let's come to my house?
+      Answers:
+      - Text: It will be unforgettable
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: I need to feed my cat
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25
+  - m_StageName: House_1
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Shopping
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -2
+    m_WinKarma: 1
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: f538e52ed5e868a40a0e5947a9017ce2, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: I love you
+      Answers:
+      - Text: Kiss her
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: Run away
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25
+  - m_StageName: Shopping
+    m_NextStages:
+    - m_StartCondition:
+        m_EntryType: 0
+        m_TriggerValue: 0
+      m_NextStageName: Date_4
+    m_EndCondition:
+      m_EntryType: 0
+      m_TriggerValue: 0
+    m_LoseKarma: -2
+    m_WinKarma: 2
+    m_LevelPrefab: {fileID: 7379378721863560523, guid: 263d1ce062101a348a128e90e2366422, type: 3}
+    m_IsChapterEnd: 0
+    m_CutScenesList: []
+    m_Questions:
+    - Text: What do you want to tell me?
+      Answers:
+      - Text: Marry me
+        Type: 0
+        EmotionType: 0
+        KarmaValue: 0.25
+      - Text: We're breaking up
+        Type: 1
+        EmotionType: 1
+        KarmaValue: 0.25

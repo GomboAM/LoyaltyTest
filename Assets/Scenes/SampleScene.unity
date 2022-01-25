@@ -1004,6 +1004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 858979511}
   - component: {fileID: 858979510}
+  - component: {fileID: 858979512}
   m_Layer: 0
   m_Name: SDK
   m_TagString: Untagged
@@ -1037,6 +1038,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &858979512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858979509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0ebe06423c0d74aa74d13f3a0b77da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1014284262
 GameObject:
   m_ObjectHideFlags: 0
@@ -6843,6 +6856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CompleteUI
       objectReference: {fileID: 0}
+    - target: {fileID: 5467922905682113002, guid: 9e27daa6e5c17884ebbb14200973eefb, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5467922905682113003, guid: 9e27daa6e5c17884ebbb14200973eefb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -6936,6 +6953,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1014284266}
     m_Modifications:
+    - target: {fileID: 6734894982835278151, guid: 268b5715373bd8a45a4f3e96df93a01e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6734894983193590510, guid: 268b5715373bd8a45a4f3e96df93a01e, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6734894983397861418, guid: 268b5715373bd8a45a4f3e96df93a01e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
